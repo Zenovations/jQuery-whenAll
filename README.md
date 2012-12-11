@@ -81,18 +81,16 @@ Additionally, the `progress` function is called after each deferred or value is 
 
 This behaves exactly like whenAll, except that the additional status `expired` may be returned in lieu of `resolved` or `rejected`
 
-    [1]: http://jsfiddle.net/katowulf/grdFU/
-
 ## Contributing
 
 Include test units in test/testunit.js (or add another js file).
 Make sure all test units pass.
-Create a min version using [Dean Edwards's Packr](http://dean.edwards.name/packer/)
+Create a min version using [Dean Edwards's Packr][3]
 Create a pull request in GitHub
 
 ## Support
 
-Visit the [GitHub Issue Tracker]()
+Visit the [GitHub Issue Tracker][2]
 
 ## License
 
@@ -105,3 +103,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+    [1]: http://jsfiddle.net/katowulf/grdFU/2/
+    [2]: https://github.com/Zenovations/jQuery-whenAll/issues
+    [3]: http://dean.edwards.name/packer/
